@@ -11,7 +11,7 @@ Raspberry Pi 上で Exit Node（サブネット・ルーティング）を動か
    net.ipv4.ip_forward=1
    net.ipv6.conf.all.forwarding=1
    EOF
-````
+   ````
 
 2. **設定を反映します。**
 
@@ -73,5 +73,3 @@ sudo tailscale up --advertise-exit-node
 * **iptables マスカレード設定ガイド**
   [https://www.netfilter.org/documentation/HOWTO//nat-HOWTO.html#ss3.1](https://www.netfilter.org/documentation/HOWTO//nat-HOWTO.html#ss3.1)
 
-```
-```
