@@ -1,8 +1,3 @@
-
-思考時間: 9 秒
-
-
-````markdown
 Raspberry Pi 上で Exit Node（サブネット・ルーティング）を動かすには、Kernel の IP フォワーディングを有効にし、NAT（マスカレード）を設定する必要があります。以下の手順で設定を行ってください。
 
 ---
@@ -33,7 +28,7 @@ Raspberry Pi 上で Exit Node（サブネット・ルーティング）を動か
    # → net.ipv6.conf.all.forwarding = 1
    ```
 
----
+
 
 ## 2. NAT（マスカレード）設定
 
